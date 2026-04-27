@@ -1,15 +1,16 @@
 ## Problem 
-Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
+Implement the Composite Design Pattern using **EducationalUnit** as the component interface.
 
-Dog and Cat are concrete objects that implements Pet interface.
+- **College** is a high-level organizational unit that can contain Departments, Teachers, Students, and other Colleges
+- **Department** is a subdivision within a College that can contain Teachers and Students
+- **Teacher** is a leaf entity with a name, subject, and salary
+- **Student** is a leaf entity with a name, student ID, and tuition fee
+- **NewEraUniversity** serves as the client object
 
-PetRecord holds attributes such as petId, petName, and Pet.
-
-Clinic would be the client object.
-
-Refer to the UML Class Diagram
+Refer to the UML Class Diagram for the structure.
 
 
 
 ## Class Diagram
-![image](https://github.com/JerryEsperanza/factoryPattern/assets/142370600/0506f134-a5f6-4d98-a817-cd6f7a8466c7)
+<img width="1410" height="935" alt="image" src="https://github.com/user-attachments/assets/c2cb132d-308d-4b6f-a821-1cc603049615" />
+
